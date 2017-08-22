@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Robo Staffing Agency
+  </title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+
+<p><a href="available">Currently Looking For Work</a></p>
+<p><a href="employed">Currently Employed</a></p>
+
+  <form="post" action="/available">
+  {{#inhuman}}
+    {{^job}}
+      <div class="profile">
+      <img src="{{avatar}}">
+      <p class="robo_name">{{name}}</p>
+      <p class="available">Need Work</p>
+      </div>
+      {{/job}}
+  {{/inhuman}}
+</form>
+
+</body>
+</html>

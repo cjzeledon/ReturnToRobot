@@ -1,0 +1,39 @@
+body{
+  width: 800px;
+  margin: 0 auto;
+  background-color: #273746;
+}
+
+.profile {
+  display: inline-grid;
+  border: 3px solid #85929E;
+  background-color: white;
+  border-radius: 4px;
+  margin: 10px;
+  width: 155px;
+  padding: 5px;
+}
+
+.robo_name {
+  color: #5DADE2;
+  font-size: large;
+  font-weight: bold;
+  font-family: sans-serif, serif, arial;
+}
+
+.robo_jobtitle, .robo_company{
+  font-size: smaller;
+  font-family: arial;
+  margin: 2px;
+}
+
+.available{
+  font-size: smaller;
+  font-family: arial;
+  margin: 2px;
+  color: red;
+}
+
+a{
+  color: white;
+}

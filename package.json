@@ -1,0 +1,17 @@
+{
+  "name": "returntorobots",
+  "version": "1.0.0",
+  "description": "Create a daily project that uses MonogoDB, express, mustache-express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudia Zeledo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mustache-express": "^1.2.5"
+  }
+}
