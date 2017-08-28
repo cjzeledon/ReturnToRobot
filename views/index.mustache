@@ -8,10 +8,10 @@
 </head>
 <body>
 
-  <p><a href="./views/available">Currently Looking For Work</a></p>
-  <p><a href="./views/employed">Currently Employed</a></p>
+  <p><a href="/available">Currently Looking For Work</a></p>
+  <p><a href="/">Currently Employed</a></p>
 
-  <form="post" action="/">
+  <form method="post" action="/">
   {{#inhuman}}
   {{#job}}
     <div class="profile">
@@ -22,11 +22,6 @@
     </div>
     {{/job}}
     {{^job}}
-      <div class="profile">
-      <img src="{{avatar}}">
-      <p class="robo_name">{{name}}</p>
-      <p class="available">Need Work</p>
-      </div>
       {{/job}}
   {{/inhuman}}
 </form>

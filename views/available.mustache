@@ -9,17 +9,15 @@
 <body>
 
 <p><a href="available">Currently Looking For Work</a></p>
-<p><a href="employed">Currently Employed</a></p>
+<p><a href="/">Currently Employed</a></p>
 
-  <form="post" action="/available">
+  <form method="post" action="/available">
   {{#inhuman}}
-    {{^job}}
       <div class="profile">
       <img src="{{avatar}}">
       <p class="robo_name">{{name}}</p>
       <p class="available">Need Work</p>
       </div>
-      {{/job}}
   {{/inhuman}}
 </form>
 
